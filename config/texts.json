@@ -1,0 +1,29 @@
+{
+    "login.pageTitle": "Login",
+    "login.pageDescription": "Inicia sesion",
+    "login.title": "Hey,",
+    "login.sub-title": "Completa los datos para iniciar sesión",
+    "login.email.label": "Email",
+    "login.password.label": "Contraseña",
+    "login.email.placeholder": "Ingresa tu correo electronico",
+    "login.password.placeholder": "Ingresa tu contraseña",
+    "login.button": "Ingresar",
+    "login.button.loading": "Ingresando...",
+    "login.footer-create-user": "Solicita crear un usuario al administrador del sitio.",
+    "login.forgot-password": "Olvide mi contraseña",
+    "login.footer-new-password": "Solicita al administrador una nueva contraseña.",
+    "separator": "o",
+    "footer": "Copyring Zero Team 2022",
+    "perfil": {
+        "pageTitle": "Perfil",
+        "pageDescription": "Perfil usuario",
+        "title": "Welcome!",
+        "close": "Saliendo",
+        "closeLoading": "Saliendo..."
+    },
+    "home": {
+        "pageTitle": "Home",
+        "pageDescription": "Home page with perfil",
+        "title": "This is a template application!"
+    }
+}

@@ -1,0 +1,4 @@
+{
+    "login": "auth/login",
+    "logout": "auht/logout"
+}
