@@ -13,8 +13,10 @@ async function loginRoute(req: NextApiRequest, res: NextApiResponse) {
     loged = true;
   }
 
-  res.send({
-    message: 'Logged in',
-    isLoged: loged,
-  });
+  setTimeout(() => {
+    res.send({
+      message: 'Logged in',
+      isLoged: loged,
+    });
+  }, 1000);
 }

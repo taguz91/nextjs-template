@@ -7,7 +7,9 @@ export default withSessionRoute(userRoute);
 async function userRoute(req: NextApiRequest, res: NextApiResponse) {
   req.session.destroy();
 
-  res.send({
-    message: 'Logout',
-  });
+  setTimeout(() => {
+    res.send({
+      message: 'Logout',
+    });
+  }, 1000);
 }

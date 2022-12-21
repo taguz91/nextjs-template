@@ -7,9 +7,10 @@ export default withSessionRoute(userRoute);
 async function userRoute(req: NextApiRequest, res: NextApiResponse) {
   if (req.session.user) {
     res.send(req.session.user);
+  } else {
+    res.status(404);
+    res.json({
+      message: 'User not loged',
+    });
   }
-  res.status(404);
-  res.json({
-    message: 'User not loged',
-  });
 }
