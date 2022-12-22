@@ -95,7 +95,7 @@ export const getServerSideProps = withSession((ctx) => {
   if (user?.user) {
     return {
       redirect: {
-        destination: urls.perfil,
+        destination: urls.home,
         statusCode: 302,
       },
     };

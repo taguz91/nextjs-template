@@ -1,9 +1,9 @@
 import { CancelButton } from 'src/components/button';
-import urls from 'config/urls.json';
 import { useSubmitInternal } from 'src/hooks/useSubmit';
 import { useText } from 'src/hooks/useText';
 import { useUsuario } from 'src/hooks/useUsuario';
 import { CenterContent } from 'src/layouts/CenterContent';
+import urls from 'config/urls.json';
 
 export default function Perfil() {
   const t = useText();

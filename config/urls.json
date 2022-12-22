@@ -2,7 +2,7 @@
     "apiLogin": "/api/login",
     "apiLogout": "/api/logout",
     "apiUser": "/api/user",
-    "home": "/home",
+    "home": "/",
     "login": "/login",
     "perfil": "/perfil"
 }
