@@ -12,14 +12,24 @@
     "login.footer-create-user": "Use any email and password",
     "login.forgot-password": "Forgot password",
     "login.footer-new-password": "Ask and administrator a new password",
+    "login": {
+        "submit": {
+            "title": "Sing in",
+            "message": "Fetch user..."
+        }
+    },
     "separator": "o",
-    "footer": "All ring reserved Zero Team | © 2022",
+    "footer": "All rights reserved Zero Team | © 2022",
     "perfil": {
         "pageTitle": "Perfil",
         "pageDescription": "User perfil",
         "title": "Welcome!",
         "close": "Sing out",
-        "closeLoading": "Sing out..."
+        "closeLoading": "Sing out...",
+        "submit": {
+            "title": "Log out",
+            "message": ""
+        }
     },
     "home": {
         "pageTitle": "Home",

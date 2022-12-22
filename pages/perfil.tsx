@@ -6,12 +6,17 @@ import { useUsuario } from 'src/hooks/useUsuario';
 import { CenterContent } from 'src/layouts/CenterContent';
 
 export default function Perfil() {
+  const t = useText();
+
   const { submit, isSend } = useSubmitInternal({
     service: urls.apiLogout,
     redirect: urls.login,
+    loading: {
+      title: t('perfil.submit.title'),
+      message: t('perfil.submit.message'),
+    },
   });
 
-  const t = useText();
   const user = useUsuario();
 
   return (

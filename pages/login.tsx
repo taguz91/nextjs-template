@@ -18,13 +18,18 @@ import urls from 'config/urls.json';
 
 const Login: NextPage = () => {
   const router = useRouter();
+  const t = useText();
+
   const { isSend, submit } = useSubmitInternal<ProfileStateType>({
     service: urls.apiLogin,
     redirect: urls.login,
     returnData: true,
+    loading: {
+      title: t('login.submit.title'),
+      message: t('login.submit.message'),
+    },
   });
   const dispatch = useDispatch();
-  const t = useText();
 
   return (
     <CenterContent description={t('login.pageDescription')} title={t('login.pageTitle')}>
